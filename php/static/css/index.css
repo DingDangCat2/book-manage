@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.f1{
+width: 400px;
+height: 300px;
+
+border-radius: 2%;
+}
+label{
+    color: green;
+}
+
+.user{
+    width: 200px;
+    height: 40px;
+    border:none;   border-bottom: green solid 2px;
+ 
+} 
+.user1{
+    width: 200px;
+    height: 40px;
+    border:none;   border-bottom:red solid 2px;
+ 
+} 
+.password{
+    width:200px;
+    height: 40px;
+    margin-top: 30px;
+    border:none;   border-bottom: green solid 2px; 
+}
+.chknumber_input{
+    width: 197px;
+    height: 40px;
+    margin-top: 30px;
+    border:none;   border-bottom: green solid 2px; 
+
+}
+
+input:focus{
+outline: 0;
+background-color: rgba(255,255,255,1);
+}
+form button{
+    width: 90px;
+    height:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: green;
+    color: aliceblue;
+    border: none;
+    margin-top: 30px;
+    border-radius: 4%;
+    margin-left: 30px;
+}
+form a{
+    color: aliceblue;
+    text-decoration: none;
+    height:35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.a2{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+form a:hover{
+    text-decoration: none;
+    color: aliceblue;
+}   
